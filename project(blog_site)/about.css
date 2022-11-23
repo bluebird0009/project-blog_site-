@@ -1,0 +1,87 @@
+html{
+    font-size: 62.5%;
+}
+.body{
+   
+    
+}
+#navbar{
+   position: fixed;
+   overflow: hidden;
+   width: 100%;
+   z-index: 10;
+}
+.navbar{
+   background-image: linear-gradient(to right, #72FFFF ,#5800FF  );
+}
+
+.navbar-nav{
+    gap: 6rem;
+    margin-left:25%;
+}
+.nav-item{
+    border: .01px solid transparent;
+    font-size: 2rem;
+}
+.nav-item:hover{
+    background-color: #e1ecf02d;
+    border: .01px solid #00c3ff;
+    border-radius: 15%;
+}
+#about-i{
+    background-color: #e1ecf02d;
+    border: .01px solid #dec8ffa0;
+    border-radius: 15%;
+}
+#blog_intro{
+    background: url("image/team.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: start;
+    background-size: cover;
+    width: 100%;
+    max-height: 30rem;
+}
+.effect{
+    padding-top: 2%;
+    width: 100%;
+    min-height:30rem;
+    background-color: rgba(25, 3, 37, 0.57);
+}
+.effect:hover{
+
+    background-color: rgba(71, 49, 83, 0.57);
+}
+.effect >h1{
+    font-family: Lucida Handwriting;
+    text-align: center;
+    padding-top: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+}
+#ab-text{
+    padding-top: 5%;
+    width: 100%;
+    min-height: 40rem;
+}
+.ab-title{
+    font-family:impact;
+    font-size: 4rem;
+}
+ab-text{
+    padding-top:10%;
+}
+.ab-sub-title{
+    font-family:impact;
+    font-size: 2.7rem;
+}
+.ab-para{
+  font-family:MS Gothic;
+  font-size:2rem;
+  text-align:justify;
+
+}
+#carasol{
+    width: 80%;
+    min-height: 40rem;
+}

@@ -1,0 +1,121 @@
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+#navbar{
+    position: fixed;
+    overflow: hidden;
+    width: 100%;
+    z-index: 10;
+}
+.navbar{
+    background-image: linear-gradient(to right, #72FFFF ,#5800FF  );
+}
+
+.navbar-nav{
+    gap: 6rem;
+    margin-left:25%;
+}
+.nav-item{
+    border: .01px solid transparent;
+    font-size: 2rem;
+}
+.nav-item:hover{
+    background-color: #e1ecf02d;
+    border: .01px solid #00b3ff;
+    border-radius: 15%;
+}
+.home{
+    background-color: #e1ecf02d;
+    border: .01px solid #dec8ffa0;
+    border-radius: 15%;
+}
+.back_ground{
+    background:url(image/bgwithcolor.jpg);
+    background-repeat: no-repeat; 
+    background-position:center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    min-height: 71rem;
+}
+.effect{
+    width: 100%;
+    min-height: 71rem;
+    background-color: rgba(25, 3, 37, 0.432);
+}
+.effect:hover{
+    background-color: rgba(25, 3, 37, 0.36);
+}
+.effect >h1{
+    z-index: -10;
+    text-align: center;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 15%;
+    font-size: 90px;
+    color: rgb(228, 223, 223);
+    font-family:papyrus;
+}
+.effect >h1:hover{
+    color: #00d0fffd;
+}
+.sec3{
+    display: flex;
+    justify-content: center;
+    gap: 6rem;
+    width: 100%;
+    min-height: 60rem;
+    border-radius: 5%;
+    background-color: rgb(191, 218, 243);
+}
+.subtitele1{
+    min-height: 500px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+.subtitele1 .imagetext1{
+    background-image: linear-gradient(to right,#72FFFF ,#5800FF );
+    text-align: center;
+    padding-top: 80px;
+}
+.imagetext1:hover{
+    width: 43%;
+    margin-top: -1%;
+
+}
+.imagetext2{
+    min-height: 100%;
+}
+.imagetext2:hover{
+    width: 43%;
+    margin-top: -1%;
+
+}
+
+.content1{
+    font-family: 'Dancing Script', cursive;
+}
+.content1 .hedding1{
+    font-size: 55px;
+    padding: 20px;
+    
+}
+.content1 .to1{
+font-size: 35px;
+padding: 20px;
+
+}
+.content1 .our1{
+    font-size: 50px;
+    padding: 20px;
+    
+}
+.secoundimage{
+    height: 440px;
+    width: 100%;
+}

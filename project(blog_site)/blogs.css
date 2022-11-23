@@ -1,0 +1,117 @@
+html{
+    font-size: 62.5%;
+}
+.body{
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0.005);
+    
+}
+#navbar{
+   position: fixed;
+   overflow: hidden;
+   width: 100%;
+   z-index: 10;
+}
+.navbar{
+   background-image: linear-gradient(to right, #72FFFF ,#5800FF  );
+}
+
+.navbar-nav{
+    gap: 6rem;
+    margin-left:25%;
+}
+.nav-item{
+    border: .01px solid transparent;
+    font-size: 2rem;
+}
+.nav-item:hover{
+    background-color: #e1ecf02d;
+    border: .01px solid #00c3ff;
+    border-radius: 15%;
+}
+#blog_intro{
+    background: url("image/work_mob_holmes2.jpg");
+    background-attachment: fixed;
+    background-repeat: repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    max-height: 40rem;
+}
+.effect{
+    width: 100%;
+    min-height:40rem;
+    background-color: rgba(25, 3, 37, 0.57);
+}
+.effect >h1{
+    text-align: center;
+    padding-top: 10%;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-top: 12%;
+    font-size: 1.5rem;
+    margin-left: 4.4%;
+    
+}
+
+#f-title:hover{
+    color: #b7a6fcfd;
+}
+.card{
+
+    width: 570px;
+    display: none;
+    overflow: hidden;
+    font-size: 1.5rem;
+}
+.card:hover{
+    width: 630px;
+}
+
+.comment-icon{
+    color:rgb(223, 189, 255);
+}
+.icon-2{
+    
+
+}
+#more{
+    display: none;
+    text-align: justify;
+}
+.blog{
+    background-color: #e1ecf02d;
+    border: .01px solid #dec8ffa0;
+    border-radius: 15%;
+}
+
+
+.card-footer p{
+    text-align: justify;
+}
+.card-footer:hover{
+    width: 700px;
+}
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+.flex-container > div {
+    background-image: linear-gradient(to right, #72FFFF ,#5800FF);
+    width: 120px;
+    margin: 10px;
+    text-align: center;
+    line-height: 25px;
+    font-size: 20px;
+  }
+.flex-container > div > a{
+    text-decoration: none;
+    color: white;
+}
