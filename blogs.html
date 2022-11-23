@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <link rel="shortcut icon" href="image/camera-1130731_1920.jpg" type="image/x-icon">
+     <link rel="stylesheet" href="blogs.css">
+     <!--animation-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!--font awasam icon-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- CSS only -->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="body">
+    <section id="navbar">
+        <nav class="navbar pb-3  px-5 navbar-expand-lg">
+          <div class="container-fluid">
+              <a class="navbar-brand  fw-bold" href="#"><i class="fas fa-walking me-3 fa-3x" ></i><strong style="font-size:20px;">Time..</strong><Str>travellar</Str></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-dark" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link  active text-dark" aria-current="page" href="about.html">About</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link blog active text-dark" aria-current="page" href="blogs.html">Blogs</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-dark" aria-current="page" href="#">Contacts</a>
+                  </li>
+                </ul>
+                <form class="d-flex " role="search">
+                  <input class="form-control me-4" style="font-size:1.4rem;" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-primary bg-light opacity-75 border-light text-dark" type="submit">Search</button>
+                </form>
+              </div>
+            </div>
+          </nav>
+    </section>
+    <section id="blog_intro">
+        <div class="effect"><h1 id="f-title">LATEST BLOG POSTS</h1></div>
+    </section>
+    <section id="card">
+      
+ 
+      <div class="post1 d-flex">
+        <div class="card  cd-1 shadow" >
+               <img src="image/maldives-1993704_1920.jpg" alt="">
+            <div class="card-footer">
+                <p>Blogs Title<span id="dots">...</span>
+                  <br>
+                  <span id="more">Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque a vel quo provident quam odio, ipsa aperiam sed quaerat harum, ab impedit consequuntur esse quibusdam enim, fugit distinctio minima quidem.</span>
+                </p> 
+                <button onclick="myFunction()" class="btn bg-primary" id="myBtn">Read more </button>
+            </div>
+        </div>
+           <div class="d-flex" style="flex-direction:column;">
+            <i class="fas fa-comment me-5 bg-none  m-5 fa-5x comment-icon" onclick="tip();" id="first"></i>
+            <span><i class="fas fa-thumbs-up  me-5 bg-none  m-5 fa-5x comment-icon icon-2" onclick="like();" id="firs"></i>
+            <strong id="arm">0</strong><span>likes</span></span>
+            <div id="form" style="display:none; margin-left: 16%; border:.2px;">
+            <textarea name="comment" id="" cols="30" rows="3" ></textarea><br>
+            <div type="submit" class="btn bg-light opacity-75 border-light text-dark  " style="font-size:2rem;" onclick="ses();" id="sub">Comment</div>
+           </div>
+          </div>
+    
+      </div>
+        <div class="post2 d-flex">
+        <div class="card  cd-2 shadow" >
+            <img src="image/camera-1130731_1920.jpg" alt="">
+           <div class="card-footer">
+             <p>Blogs Title<span id="dada">...</span>
+              <br>
+              <span id="mama" style="display:none;">Blogs Details</span>
+            </p>
+            <button onclick="mFunction()" id="baba" class="btn bg-primary" >Read more</button>
+         </div>
+        </div>
+        <div class="d-flex" style="flex-direction:column;">
+          <i class="fas fa-comment me-5 bg-none  m-5 fa-5x comment-icon" onclick="tip1();" id="first1"></i>
+          <span><i class="fas fa-thumbs-up  me-5 bg-none  m-5 fa-5x comment-icon icon-2" onclick="like1();" id="firs1"></i>
+          <strong id="arm1">0</strong><span>likes</span></span>
+          <div id="form1" style="display:none; margin-left: 16%; border:.2px;">
+          <textarea name="comment" id="" cols="30" rows="3" ></textarea><br>
+          <div type="submit" class="btn bg-light opacity-75 border-light text-dark  " style="font-size:2rem;" onclick="ses1();" id="sub1">Comment</div>
+         </div>
+        </div>
+        </div>
+        <div class="part3 d-flex">
+        <div class="card cd-1 shadow" >
+            <img src="image/sunrise-1014712_1920.jpg" alt="">
+           <div class="card-footer">
+             <p>Blogs Title<span id="dotss">...</span>
+              <br>
+              <span id="mores" style="display:none;">Blogs Details</span>
+            </p>
+            <button onclick="msFunction()" class="btn bg-primary" id="myBtns">Read more </button>
+         </div>
+        </div>
+        <div class="d-flex" style="flex-direction:column;">
+          <i class="fas fa-comment me-5 bg-none  m-5 fa-5x comment-icon" onclick="tip2();" id="first2"></i>
+          <span><i class="fas fa-thumbs-up  me-5 bg-none  m-5 fa-5x comment-icon icon-2" onclick="like2();" id="firs2"></i>
+          <strong id="arm2">0</strong><span>likes</span></span>
+          <div id="form2" style="display:none; margin-left: 16%; border:.2px;">
+          <textarea name="comment" id="" cols="30" rows="3" ></textarea><br>
+          <div type="submit" class="btn bg-light opacity-75 border-light text-dark  " style="font-size:2rem;" onclick="ses2();" id="sub">Comment</div>
+         </div>
+        </div>
+        </div>
+        <div class="part4 d-flex">
+        <div class="card cd-2 shadow" >
+            <img src="image/notepad-1130743_1920.jpg" alt="">
+           <div class="card-footer">
+             <p>Blogs Title<span id="dadad">...</span>
+              <br>
+              <span id="mamad" style="display:none;">Blogs Details</span>
+            </p>
+            <button onclick="mdFunction()" id="babad" class="btn bg-primary" >Read more</button>
+         </div>
+        </div>
+        <div class="d-flex" style="flex-direction:column;">
+          <i class="fas fa-comment me-5 bg-none  m-5 fa-5x comment-icon" onclick="tip3();" id="first3"></i>
+          <span><i class="fas fa-thumbs-up  me-5 bg-none  m-5 fa-5x comment-icon icon-2" onclick="like3();" id="firs3"></i>
+          <strong id="arm3">0</strong><span>likes</span></span>
+          <div id="form3" style="display:none; margin-left: 16%; border:.2px;">
+          <textarea name="comment" id="" cols="30" rows="3" ></textarea><br>
+          <div type="submit" class="btn bg-light opacity-75 border-light text-dark  " style="font-size:2rem;" onclick="ses3();" id="sub">Comment</div>
+         </div>
+        </div>
+        </div>
+
+    </section>
+    <section class="box_flex">
+      <div class="flex-container">
+        <div><a href="blogs.html">1</a></div>
+        <div><a href="blogs.html">2</a></div>
+        <div><a href="blogs.html">3</a></div>  
+        <div><a href="blogs.html">4</a></div>
+        <div><a href="blogs.html">5</a></div>
+        <div><a href="blogs.html">6</a></div>  
+        <div><a href="blogs.html">7</a></div>
+        <div><a href="blogs.html">8</a></div>
+      </div>
+    </section>
+    <footer class="text-center mt-5 text-lg-start bg-light text-muted " style="width:100%;">
+      <!-- Section: Social media -->
+      <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <!-- Left -->
+        <div class="me-5 d-none d-lg-block">
+          <span>Supports</span>
+        </div>
+        <!-- Left -->
+    
+        <!-- Right -->
+        <div>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-google"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a href="" class="me-4 text-reset">
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <!-- Right -->
+      </section>
+      <!-- Section: Social media -->
+    
+      <!-- Section: Links  -->
+      <section class="">
+        <div class="container text-center text-md-start mt-5">
+          <!-- Grid row -->
+          <div class="row mt-3">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+              <!-- Content -->
+              <h3 class="text-uppercase  fw-bold mb-4">
+                <i class="fas fa-gem me-3"></i>logo
+              </h3>
+              <p class="fs-5">
+                hello I'm Mahfuz. I'm a wab Designer in Barishal. I am from Khulna. I started my jurrny as a web Designer by the hands of Isha vai. Now I'm a active student of Kazi Rayhan vai. I am trying my best to learn as much as I can
+              </p>
+            </div>
+            
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+              <!-- Links -->
+              <h4 class="text-uppercase fw-bold mb-4">
+                Useful links
+              </h4>
+              <p>
+                <a href="#!" class="text-reset">Home</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">About</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Services</a>
+              </p>
+              <p>
+                <a href="#!" class="text-reset">Work</a>
+              </p>
+            </div>
+            <!-- Grid column -->
+    
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+              <!-- Links -->
+              <h4 class="text-uppercase fw-bold mb-4">Contact</h4>
+              <p><i class="fas fa-home me-3"></i>Digholia, Khulna, Bangladesh</p>
+              <p>
+                <i class="fas fa-envelope me-3"></i>
+                mahfuzul1125@gmail.com
+              </p>
+              <p><i class="fas fa-phone me-3"></i> 01302854516</p>
+              <p><i class="fas fa-print me-3"></i> 01302854516</p>
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!-- Grid row -->
+        </div>
+      </section>
+      <!-- Section: Links  -->
+    
+     
+    </footer>
+    <!-- Footer -->
+    
+    <!--js-->
+    <script>
+        function myFunction() {
+           var dots = document.getElementById("dots");
+           var moreText = document.getElementById("more");
+           var btnText = document.getElementById("myBtn");
+
+         if (dots.style.display === "none") {
+           dots.style.display = "inline";
+           btnText.innerHTML = "Read more ";
+           moreText.style.display = "none";
+         }
+         else {
+           dots.style.display = "none";
+           btnText.innerHTML = "Read less";
+           moreText.style.display = "inline";
+           moreText.style.textAlign = "justify";
+          }
+        }
+        function msFunction() {
+           var dots = document.getElementById("dotss");
+           var moreText = document.getElementById("mores");
+           var btnText = document.getElementById("myBtns");
+
+         if (dots.style.display === "none") {
+           dots.style.display = "inline";
+           btnText.innerHTML = "Read more ";
+           moreText.style.display = "none";
+         }
+         else {
+           dots.style.display = "none";
+           btnText.innerHTML = "Read less";
+           moreText.style.display = "inline";
+           moreText.style.textAlign = "justify";
+          }
+        }
+        function mdFunction() {
+           var dots = document.getElementById("dadad");
+           var moreText = document.getElementById("mamad");
+           var btnText = document.getElementById("babad");
+
+         if (dots.style.display === "none") {
+           dots.style.display = "inline";
+           btnText.innerHTML = "Read more ";
+           moreText.style.display = "none";
+         }
+         else {
+           dots.style.display = "none";
+           btnText.innerHTML = "Read less";
+           moreText.style.display = "inline";
+          }
+        }
+        function mFunction() {
+           var dot = document.getElementById("dada");
+           var Text = document.getElementById("mama");
+           var bText = document.getElementById("baba");
+
+         if (dot.style.display === "none") {
+           dot.style.display = "inline";
+           bText.innerHTML = "Read more";
+           Text.style.display = "none";
+         }
+         else {
+           dot.style.display = "none";
+           bText.innerHTML = "Read less";
+           Text.style.display = "inline";
+          }
+        }
+        function tip(){
+            let bati =document.getElementById("form");
+            let sub =document.getElementById("sub");
+            let anda =document.getElementById("first");
+            if (bati.style.display = "none"){
+                bati.style.display = "inline"
+                anda.style.display = "none"
+            }
+        }
+        function tip1(){
+            let bati =document.getElementById("form1");
+            let sub =document.getElementById("sub1");
+            let anda =document.getElementById("first1");
+            if (bati.style.display = "none"){
+                bati.style.display = "inline"
+                anda.style.display = "none"
+            }
+        }
+        function tip2(){
+            let bati =document.getElementById("form2");
+            let sub =document.getElementById("sub2");
+            let anda =document.getElementById("first2");
+            if (bati.style.display = "none"){
+                bati.style.display = "inline"
+                anda.style.display = "none"
+            }
+        }
+        function tip3(){
+            let bati =document.getElementById("form3");
+            let sub =document.getElementById("sub3");
+            let anda =document.getElementById("first3");
+            if (bati.style.display = "none"){
+                bati.style.display = "inline"
+                anda.style.display = "none"
+            }
+        }
+        function ses(){
+           let anda = document.getElementById("first");
+           let bati = document.getElementById("form");
+           anda.style.display="inline"
+           bati.style.display="none"
+
+        }
+        function ses1(){
+           let anda = document.getElementById("first1");
+           let bati = document.getElementById("form1");
+           anda.style.display="inline"
+           bati.style.display="none"
+
+        }
+        function ses2(){
+           let anda = document.getElementById("first2");
+           let bati = document.getElementById("form2");
+           anda.style.display="inline"
+           bati.style.display="none"
+
+        }
+        function ses3(){
+           let anda = document.getElementById("first3");
+           let bati = document.getElementById("form3");
+           anda.style.display="inline"
+           bati.style.display="none"
+
+        }
+        function like(){
+          let x =parseInt(document.getElementById("arm").innerHTML)+ 1;
+          document.getElementById("arm").innerHTML = x;
+          let dad=document.getElementById("firs");
+          dad.style.display="none";
+          alert("wellcome moin chudir-vhai")
+        }
+        function like1(){
+          let x =parseInt(document.getElementById("arm1").innerHTML)+ 1;
+          document.getElementById("arm1").innerHTML = x;
+          let dad=document.getElementById("firs1");
+          dad.style.display="none";
+        }
+        function like2(){
+          let x =parseInt(document.getElementById("arm2").innerHTML)+ 1;
+          document.getElementById("arm2").innerHTML = x;
+          let dad=document.getElementById("firs2");
+          dad.style.display="none";
+        }
+        function like3(){
+          let x =parseInt(document.getElementById("arm3").innerHTML)+ 1;
+          document.getElementById("arm3").innerHTML = x;
+          let dad=document.getElementById("firs3");
+          dad.style.display="none";
+        }
+    </script>
+    <!--animation-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!--font awasam icon-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/js/all.min.js" integrity="sha512-naukR7I+Nk6gp7p5TMA4ycgfxaZBJ7MO5iC3Fp6ySQyKFHOGfpkSZkYVWV5R7u7cfAicxanwYQ5D1e17EfJcMA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+   <!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script> 
+</body>
+</html>
